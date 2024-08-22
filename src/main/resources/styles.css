@@ -1,0 +1,129 @@
+.root {
+    -fx-background-color: #232a35;
+}
+
+.label {
+    -fx-text-fill: #f3f3f3;
+    -fx-font-size: 14px;
+}
+
+.button {
+    -fx-font-size: 14px;
+    -fx-background-radius: 25px;
+    -fx-padding: 8px 12px;
+    -fx-text-fill: #232a35;
+    -fx-font-weight: 900;
+}
+
+.primary-button {
+    -fx-background-color: #30c78d;
+    -fx-font-size: 14px;
+}
+
+.secondary-button {
+    -fx-background-color: #6388F3;
+    -fx-font-size: 14px;
+}
+
+.danger-button {
+    -fx-background-color: #cf4a60;
+    -fx-font-size: 14px;
+}
+
+.button:hover {
+    -fx-opacity: 0.85;
+}
+
+.table-view {
+    -fx-background-color: #343c4a;
+}
+
+.table-view .column-header {
+    -fx-background-color: #343c4a;
+}
+
+.table-view .column-header, .table-view .filler {
+    -fx-text-fill: white;
+}
+
+.table-row-cell {
+    -fx-background-color: #e0e0e0;
+    -fx-text-fill: #333333;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #b0c4de;
+}
+
+.description-label {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+.user-list-container {
+    -fx-background-color: #232a35;
+}
+
+.user-box {
+    -fx-alignment: center-left;
+    -fx-background-color: #343c4a;
+    -fx-border-color: transparent transparent #cccccc transparent;
+    -fx-border-width: 0 0 1px 0;
+}
+
+.combo-box {
+    -fx-padding: 10px;
+    -fx-background-color: #343c4a;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-text-fill: white;
+}
+
+.combo-box .list-cell {
+    -fx-background-color: #343c4a;
+    -fx-border-color: transparent;
+    -fx-padding: 10px;
+    -fx-text-fill: white;
+}
+
+.combo-box .list-cell:hover {
+    -fx-background-color: #ea4b01;
+}
+
+.combo-box .list-cell:selected {
+    -fx-background-color: #0097cf;
+}
+
+.combo-box .button-cell {
+    -fx-background-color: #343c4a;
+    -fx-padding: 10px;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+    -fx-border-color: #cccccc;
+    -fx-text-fill: white;
+}
+
+.grid-pane {
+    -fx-padding: 20px;
+    -fx-hgap: 10px;
+    -fx-vgap: 10px;
+    -fx-background-color: #343c4a;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-text-fill: white;
+}
+
+.grid-pane .label {
+    -fx-font-size: 14px;
+    -fx-text-fill: white;
+}
+
+.text-field {
+    -fx-padding: 8px;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-prompt-text-fill: derive(-fx-control-inner-background, -30%);
+}
